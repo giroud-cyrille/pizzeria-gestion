@@ -1,0 +1,10 @@
+C:\Users\speci\Desktop\Cours\B2\Projet Developemment\ProjetTransversal\ProjetcLibrary\bin\Debug\ProjetcLibrary.dll
+C:\Users\speci\Desktop\Cours\B2\Projet Developemment\ProjetTransversal\ProjetcLibrary\bin\Debug\ProjetcLibrary.pdb
+C:\Users\speci\Desktop\Cours\B2\Projet Developemment\ProjetTransversal\ProjetcLibrary\bin\Debug\PetaPoco.dll
+C:\Users\speci\Desktop\Cours\B2\Projet Developemment\ProjetTransversal\ProjetcLibrary\obj\Debug\ProjetcLibrary.csproj.AssemblyReference.cache
+C:\Users\speci\Desktop\Cours\B2\Projet Developemment\ProjetTransversal\ProjetcLibrary\obj\Debug\ProjetcLibrary.csproj.CoreCompileInputs.cache
+C:\Users\speci\Desktop\Cours\B2\Projet Developemment\ProjetTransversal\ProjetcLibrary\obj\Debug\ProjetcLibrary.csproj.CopyComplete
+C:\Users\speci\Desktop\Cours\B2\Projet Developemment\ProjetTransversal\ProjetcLibrary\obj\Debug\ProjetcLibrary.dll
+C:\Users\speci\Desktop\Cours\B2\Projet Developemment\ProjetTransversal\ProjetcLibrary\obj\Debug\ProjetcLibrary.pdb
+C:\Users\speci\Desktop\Cours\B2\Projet Developemment\ProjetTransversal\ProjetcLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\speci\Desktop\Cours\B2\Projet Developemment\ProjetTransversal\ProjetcLibrary\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "WindowsFormsApp1\Project.csproj", "{83047B12-7126-4A1A-A1A8-A2240842A008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetcLibrary", "ProjetcLibrary\ProjetcLibrary.csproj", "{7A751486-CC3D-49AC-8ECC-8AAD33FFFDDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzeriaAPI", "..\..\..\..\..\source\repos\PizzeriaAPI\PizzeriaAPI\PizzeriaAPI.csproj", "{B003C907-3FF5-4A25-BE95-324E970E33BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83047B12-7126-4A1A-A1A8-A2240842A008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83047B12-7126-4A1A-A1A8-A2240842A008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83047B12-7126-4A1A-A1A8-A2240842A008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83047B12-7126-4A1A-A1A8-A2240842A008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A751486-CC3D-49AC-8ECC-8AAD33FFFDDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A751486-CC3D-49AC-8ECC-8AAD33FFFDDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A751486-CC3D-49AC-8ECC-8AAD33FFFDDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A751486-CC3D-49AC-8ECC-8AAD33FFFDDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B003C907-3FF5-4A25-BE95-324E970E33BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B003C907-3FF5-4A25-BE95-324E970E33BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B003C907-3FF5-4A25-BE95-324E970E33BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B003C907-3FF5-4A25-BE95-324E970E33BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75079F07-2EC7-4053-8EC9-01D7268BF739}
+	EndGlobalSection
+EndGlobal
