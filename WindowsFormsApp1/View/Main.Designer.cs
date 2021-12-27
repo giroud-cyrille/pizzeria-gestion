@@ -43,6 +43,7 @@ namespace WindowsFormsApp1.View
             this.user = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.panelChild.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -66,7 +67,7 @@ namespace WindowsFormsApp1.View
             this.panelChild.Controls.Add(this.label5);
             this.panelChild.Location = new System.Drawing.Point(286, 12);
             this.panelChild.Name = "panelChild";
-            this.panelChild.Size = new System.Drawing.Size(606, 464);
+            this.panelChild.Size = new System.Drawing.Size(596, 390);
             this.panelChild.TabIndex = 15;
             // 
             // label5
@@ -74,7 +75,7 @@ namespace WindowsFormsApp1.View
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label5.Location = new System.Drawing.Point(583, 9);
+            this.label5.Location = new System.Drawing.Point(576, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(20, 20);
             this.label5.TabIndex = 14;
@@ -84,6 +85,7 @@ namespace WindowsFormsApp1.View
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.label1);
@@ -93,7 +95,7 @@ namespace WindowsFormsApp1.View
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(283, 489);
+            this.panel1.Size = new System.Drawing.Size(283, 427);
             this.panel1.TabIndex = 14;
             // 
             // button5
@@ -103,7 +105,7 @@ namespace WindowsFormsApp1.View
             this.button5.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(-3, 304);
+            this.button5.Location = new System.Drawing.Point(-3, 260);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(283, 77);
             this.button5.TabIndex = 9;
@@ -120,7 +122,7 @@ namespace WindowsFormsApp1.View
             this.button4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(0, 230);
+            this.button4.Location = new System.Drawing.Point(3, 94);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(283, 77);
             this.button4.TabIndex = 8;
@@ -135,7 +137,7 @@ namespace WindowsFormsApp1.View
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(83, 438);
+            this.label1.Location = new System.Drawing.Point(83, 376);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(166, 26);
             this.label1.TabIndex = 4;
@@ -144,7 +146,7 @@ namespace WindowsFormsApp1.View
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(15, 415);
+            this.pictureBox2.Location = new System.Drawing.Point(15, 353);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(62, 49);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -178,11 +180,28 @@ namespace WindowsFormsApp1.View
             this.bunifuDragControl2.TargetControl = this.panel1;
             this.bunifuDragControl2.Vertical = true;
             // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(0, 177);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(283, 77);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Suppléments";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(904, 489);
+            this.ClientSize = new System.Drawing.Size(903, 427);
             this.Controls.Add(this.panelChild);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -213,5 +232,6 @@ namespace WindowsFormsApp1.View
         private System.Windows.Forms.Panel panelChild;
         private System.Windows.Forms.Label label5;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
+        private System.Windows.Forms.Button button1;
     }
 }

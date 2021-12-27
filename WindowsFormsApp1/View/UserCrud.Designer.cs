@@ -47,7 +47,7 @@ namespace WindowsFormsApp1.View
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label5.Location = new System.Drawing.Point(565, 9);
+            this.label5.Location = new System.Drawing.Point(577, 12);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(20, 20);
             this.label5.TabIndex = 15;
@@ -72,9 +72,9 @@ namespace WindowsFormsApp1.View
             this.roleDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.bindingSource1;
             this.dataGridView1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 37);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(573, 449);
+            this.dataGridView1.Size = new System.Drawing.Size(561, 449);
             this.dataGridView1.TabIndex = 19;
             this.dataGridView1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEndEdit);
             this.dataGridView1.RowValidated += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowValidated);
@@ -116,7 +116,7 @@ namespace WindowsFormsApp1.View
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 500);
+            this.ClientSize = new System.Drawing.Size(610, 500);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label5);
             this.Name = "UserCrud";

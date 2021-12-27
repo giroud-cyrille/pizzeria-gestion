@@ -13,7 +13,7 @@ namespace ProjetcLibrary.Utils
     {
         public static string Get(string param, string controller)
         {
-            HttpWebRequest WebReq = string.IsNullOrEmpty(param) ? (HttpWebRequest)WebRequest.Create($"https://localhost:44311/api/{controller}") : (HttpWebRequest)WebRequest.Create($"https://localhost:44311/api/{controller}/{param}");
+            HttpWebRequest WebReq = string.IsNullOrEmpty(param) ? (HttpWebRequest)WebRequest.Create($"https://localhost:5001/api/{controller}") : (HttpWebRequest)WebRequest.Create($"https://localhost:5001/api/{controller}/{param}");
 
             WebReq.Method = "GET";
             WebReq.Headers.Add("APIKey", "b+zcArCc+BPkJVljCq5PNg==");
@@ -31,7 +31,7 @@ namespace ProjetcLibrary.Utils
 
         public static void Put(string controller, int id, object model)
         {
-            var url = $"https://localhost:44311/api/{controller}/{id}";
+            var url = $"https://localhost:5001/api/{controller}/{id}";
 
             var httpRequest = (HttpWebRequest)WebRequest.Create(url);
             httpRequest.Headers.Add("APIKey", "b+zcArCc+BPkJVljCq5PNg==");
@@ -49,7 +49,7 @@ namespace ProjetcLibrary.Utils
 
         public static void Post(string controller, object model)
         {
-            var url = $"https://localhost:44311/api/{controller}";
+            var url = $"https://localhost:5001/api/{controller}";
 
             var httpRequest = (HttpWebRequest)WebRequest.Create(url);
             httpRequest.Method = "POST";
@@ -67,7 +67,7 @@ namespace ProjetcLibrary.Utils
 
         public static void Delete(string controller, int id, object model)
         {
-            var url = $"https://localhost:44311/api/{controller}/{id}";
+            var url = $"https://localhost:5001/api/{controller}/{id}";
 
             var httpRequest = (HttpWebRequest)WebRequest.Create(url);
             httpRequest.Headers.Add("APIKey", "b+zcArCc+BPkJVljCq5PNg==");

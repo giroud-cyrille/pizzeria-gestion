@@ -100,7 +100,6 @@ namespace WindowsFormsApp1.View
             if (dataGridView1.CurrentRow.DataBoundItem is null)
                 return;
 
-            _users.Last().Id = _users.Max(x => x.Id) + 1;
             ApiHelper.Post("users", dataGridView1.CurrentRow.DataBoundItem);
         }
     }

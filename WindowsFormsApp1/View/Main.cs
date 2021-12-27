@@ -58,7 +58,12 @@ namespace WindowsFormsApp1.View
 
         private void button4_Click(object sender, EventArgs e)
         {
-            CloseChild();
+            OpenChild(new ProductCrud());
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenChild(new OptionCrud());
         }
     }
 }
